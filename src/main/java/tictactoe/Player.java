@@ -7,6 +7,10 @@ public class Player {
         reset();
     }
 
+    public String getPlayer() {
+        return player;
+    }
+
     public void setPlayer(String player) {
         this.player = player;
     }
@@ -23,5 +27,9 @@ public class Player {
             this.player = "X";
         }
         return current;
+    }
+
+    public void displayCurrentPlayer() {
+        System.out.println("Player "+this.player+" moves next");
     }
 }

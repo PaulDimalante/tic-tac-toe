@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tictactoe.BoardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-12T18:02:18" hostname="DESKTOP-IFKHLR1" time="0.003">
+<testsuite name="tictactoe.BoardTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-12T19:12:13" hostname="DESKTOP-IFKHLR1" time="0.003">
   <properties/>
-  <testcase name="boardShouldBeUpdatedWhenXtakesSquareR1C1" classname="tictactoe.BoardTest" time="0.002"/>
-  <testcase name="initalBoardShouldBeFilledWithDots" classname="tictactoe.BoardTest" time="0.0"/>
+  <testcase name="boardShouldReturnFalseWhenInvalidMove" classname="tictactoe.BoardTest" time="0.002"/>
+  <testcase name="boardShouldReturnTrueWhenValidMove" classname="tictactoe.BoardTest" time="0.0"/>
+  <testcase name="gameOverShouldBeTrueWhen9MovesMade" classname="tictactoe.BoardTest" time="0.0"/>
+  <testcase name="initalBoardShouldBeFilledWithDots" classname="tictactoe.BoardTest" time="0.001"/>
+  <testcase name="invalidMoveShouldNotChangeState" classname="tictactoe.BoardTest" time="0.0"/>
+  <testcase name="boardShouldBeUpdatedWhenPlayerMoves" classname="tictactoe.BoardTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
