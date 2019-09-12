@@ -7,6 +7,10 @@ public class Player {
         reset();
     }
 
+    public void setPlayer(String player) {
+        this.player = player;
+    }
+
     public void reset() {
         this.player = "X";
     }

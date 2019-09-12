@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tictactoe.BoardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-12T16:55:57" hostname="DESKTOP-IFKHLR1" time="0.001">
+<testsuite name="tictactoe.BoardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-12T18:02:18" hostname="DESKTOP-IFKHLR1" time="0.003">
   <properties/>
-  <testcase name="initalBoardShouldBe3by3FilledWithDots" classname="tictactoe.BoardTest" time="0.001"/>
+  <testcase name="boardShouldBeUpdatedWhenXtakesSquareR1C1" classname="tictactoe.BoardTest" time="0.002"/>
+  <testcase name="initalBoardShouldBeFilledWithDots" classname="tictactoe.BoardTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

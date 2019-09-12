@@ -8,9 +8,19 @@ public class BoardTest {
     public void before() {}
 
     @Test
-    public void initalBoardShouldBe3by3FilledWithDots() {
+    public void initalBoardShouldBeFilledWithDots() {
         Board board = new Board();
-        assert("........." == board.toString());
+        String b = board.toString();
+        assert(".........".equals(b));
+    }
+
+    @Test
+    public void boardShouldBeUpdatedWhenXtakesSquareR1C1() {
+        Board board = new Board();
+        Player player = new Player();
+        board.move(player,1,1);
+        String b = board.toString();
+        assert("X........".equals(b));
     }
 
 }
