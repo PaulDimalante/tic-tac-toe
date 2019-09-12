@@ -12,4 +12,5 @@ public class BoardTest {
         Board board = new Board();
         assert("........." == board.toString());
     }
+
 }
