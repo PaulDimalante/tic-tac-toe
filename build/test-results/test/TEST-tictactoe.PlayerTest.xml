@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tictactoe.PlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-12T19:12:13" hostname="DESKTOP-IFKHLR1" time="0.001">
+<testsuite name="tictactoe.PlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-12T21:15:25" hostname="DESKTOP-IFKHLR1" time="0.001">
   <properties/>
-  <testcase name="playerShouldBeOafterXmoves" classname="tictactoe.PlayerTest" time="0.0"/>
+  <testcase name="playerShouldBeOafterXmoves" classname="tictactoe.PlayerTest" time="0.001"/>
   <testcase name="initalPlayerShouldBeX" classname="tictactoe.PlayerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

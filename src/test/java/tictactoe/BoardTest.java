@@ -67,17 +67,40 @@ public class BoardTest {
         assert(board.isGameOver()==false);
         board.move(player,1,3);
         assert(board.isGameOver()==false);
-        board.move(player,2,1);
-        assert(board.isGameOver()==false);
         board.move(player,2,2);
         assert(board.isGameOver()==false);
-        board.move(player,2,3);
+        board.move(player,2,1);
         assert(board.isGameOver()==false);
         board.move(player,3,1);
         assert(board.isGameOver()==false);
-        board.move(player,3,2);
+        board.move(player,2,3);
         assert(board.isGameOver()==false);
         board.move(player,3,3);
+        assert(board.isGameOver()==false);
+        board.move(player,3,2);
+        assert(board.isGameOver()==true);
+        assert("Nobody wins".equals(board.getWinner()));
+    }
+
+    @Test
+    public void testForWinners() {
+        Board board = new Board();
+        Player player = new Player();
+
+        board.move(player,1,1);
+        assert("".equals(board.getWinner()));
+        assert(board.isGameOver()==false);
+        board.move(player,2,1);
+        assert("".equals(board.getWinner()));
+        assert(board.isGameOver()==false);
+        board.move(player,1,2);
+        assert("".equals(board.getWinner()));
+        assert(board.isGameOver()==false);
+        board.move(player,2,2);
+        assert("".equals(board.getWinner()));
+        assert(board.isGameOver()==false);
+        board.move(player,1,3);
+        assert("X wins".equals(board.getWinner()));
         assert(board.isGameOver()==true);
     }
 
